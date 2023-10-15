@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lesson 03 innerHTML Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lesson 3: Editing DOM Elements</h1>
+    <div>
+        <h2>Example 1: Changing the content of a DOM element using ID via innerHTML</h2>
+        <hr>
+        <p id="demoid" onclick="idchange()">This is a paragraph with an id. (CLICK ME)</p>
+    </div>
+    <div>
+        <h2>Example 2: Changing a List Item by Class Name via innerHTML</h2>
+        <hr>
+        <p>CLICK ANY OF THE ITEMS BELOW</p>
+        <ul id="newlist" onclick="classchange()">
+            <li class="item">List Item 1</li>
+            <li class="item">List Item 2</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Example 3: Changing the Content by Tag Name via innerHTML</h2>
+        <hr>
+        <h4>Original Heading 1 Content</h4>
+        <h4>Original Heading 2 Content</h4>
+        <h4>Original Heading 3 Content</h4>
+        <button onclick="tagchange()">Click to change the Heading</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
